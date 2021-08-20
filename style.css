@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: red solid 1px; */
+}
+
+.body-content{
+    display: flex;
+}
+
+.container{
+    width: 700px;
+    margin: 0px auto;
+}
+
+/* Header and Your Feed */
+.header-title{
+    background-color: black;
+    color: whitesmoke;
+    padding: 15px;
+}
+
+.YF{
+    text-align: center;
+}
+
+/* Columns */
+
+.left-col{
+    border: solid 2px black;
+    height: 200px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    padding-bottom: 10px;
+}
+.AAA{
+    padding-bottom: 10px;
+}
+
+/* User Cards */
+.user-card{
+    border: black solid 2px;
+    width: 470px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 15px;
+    min-width: 300px;
+}
+
+.card-top-half{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+button{
+    background-color: gold;
+    padding: 5px 10px;
+    box-shadow: black 4px 4px;
+    border: 2px black solid;
+}
